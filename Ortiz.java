@@ -44,6 +44,11 @@ public class Ortiz {
 
         }  
 
-        
+        total = totalBaja + totalMedia + totalAlta;
+        promedio = total / cantidadProductos;
+        System.out.println("El total de productos de categoría Alta es: " + contadorAlta);
+        System.out.println("El promedio de los productos es: " + promedio);
+        leer.close();
+    }
 
   }
